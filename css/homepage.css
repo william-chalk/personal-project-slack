@@ -17,7 +17,7 @@
     font-weight: 500;
     color: #4a154b;
     background-color: transparent;
-    padding: 10px;
+    padding: 7px 15px 7px 15px;
 }
 
 .navigation button:hover{
@@ -86,6 +86,7 @@ body{
     background-color: white;
 }
 
+
 .table-row tr:hover{
     background-color: lightgrey;
 }
@@ -99,9 +100,10 @@ body{
     border-right: 1px solid;
     border-bottom: 1px solid;
     border-left: 1px solid;
-    border-top: 0;
+    border-top: 4px solid #352235;
     padding: 10px;
     box-shadow: 5px 10px 18px #888888;
+    z-index: 1;
 }
 
 .company{
@@ -111,7 +113,96 @@ body{
 }
 
 .company h3{
-    padding: 50px;
+    padding: 55px;
 }
 
+.half-circle{
+    height: 20rem;
+    width: 20rem;
+    background-color:#4a154b;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    display:flex;
+    padding-left: 50%;
+    padding-right: 50%;
+    align-items: center;
+}
+
+.half-circle h2{
+    color: white;
+    justify-content: center;
+}
+
+.half-circle button{
+    border: 0;
+    border-radius: 5px;
+    color: #4a154b;
+    font-weight: 600;
+}
+
+.details a,h3{
+    display: flex;
+    justify-content: center;
+}
+
+.details h3{
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.extra-details{
+    padding-top: 5%;
+}
+
+.extra-details,.extra-details p{
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.facts{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.facts,.facts div p,.facts div h1{
+    display: flex;
+    justify-content: center;
+}
+
+.facts div{
+    padding-top: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.facts p{
+    font-size: small;
+    font-weight: bold;
+}
+
+.facts h1{
+   color: #5c375c;
+   font-weight: bold;
+   font-size: 50px;
+}
+
+.icons{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    float: right;
+}
+
+.icons i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
 
