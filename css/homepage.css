@@ -8,12 +8,8 @@
 .navigation{
     padding-left: 25%;
     padding-right: 25%;
+    float: right;
     padding-top: 20px;
-}
-
-.navigation button,.navigation a{
-    display: flex;
-    justify-content: end;
 }
 
 .navigation button{

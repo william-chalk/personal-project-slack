@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.hero{
+    background-color: #4a154b;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 20%;
+    padding-right: 25%;
+    padding-top: 25px;
+    font-weight: 600;
+}
+
+header nav ul li a,header nav ul li{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header nav ul li button{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.nav-btn:hover{
+    border: 2px solid black;
+}
+
+.contact-sales{
+    padding-left: 20%;
+    padding-top: 5%;
+    color:white;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.contact-sales h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.contact-sales p,.contact-sales ul li{
+    font-size: 20px;
+}
+
+.contact-sales ul li{
+    list-style: none;
+}
+
+.contact-sales ul li i{
+    padding-right: 5px;
+}
+
+.contact-sales p a{
+    color: lightblue;
+}
+
+.companies{
+    background-color: white;
+    padding-left: 20%;
+    padding-top: 25px;
+    margin-right: 50%;
+}
+
+.companies h3{
+    padding-bottom: 15px;
+}
+
+.logo,.logo h4{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.faq{
+    padding-top: 15%;
+    padding-left: 20%;
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.faq div{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.faq div h6{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.faq div ul li {
+    padding-bottom: 10px;
+    justify-content: center;
+    list-style: none;
+}
+
+
