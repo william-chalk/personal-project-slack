@@ -132,12 +132,9 @@ body{
     border-radius: 0 0 50% 50%/0 0 100% 100%;
     padding-left: 50%;
     padding-right: 50%;
+    z-index: 0;
 }
 
-.half-circle h2{
-    display: flex;
-    justify-content: center;
-}
 .half-circle button{
     border: 0;
     border-radius: 5px;
@@ -149,6 +146,29 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+}
+
+.half-circle-content{
+    position: absolute;
+    z-index: 999;
+    padding-left: 35%;
+}
+
+.half-circle-content h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 15%;
+}
+
+.half-circle-content button{
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 15px;
+    border: 0px;
+    border-radius: 5px;
+    color:#4a154b;
+    font-weight: 600;
 }
 
 .details a,h3{
