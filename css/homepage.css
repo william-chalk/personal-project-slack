@@ -127,12 +127,12 @@
 
 .half-circle{
     height: 20rem;
-    width: 20rem;
+    width: 50rem;
     background-color:#4a154b;
     border-radius: 0 0 50% 50%/0 0 100% 100%;
     padding-left: 50%;
     padding-right: 50%;
-    z-index: 0;
+    z-index: 50;
 }
 
 .half-circle button{
@@ -150,7 +150,7 @@
 
 .half-circle-content{
     position: absolute;
-    z-index: 999;
+    z-index: 900;
     padding-left: 35%;
 }
 
@@ -251,6 +251,7 @@
     padding-left: 25%;
     padding-right: 25%;
     padding-bottom: 5%;
+    z-index: 999;
 }
 
 .faq h3{
@@ -268,4 +269,20 @@
     border-color: blue;
 }
 
+.accordion button{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.faq-bottomtext{
+    padding-top: 5%;
+
+}
+
+.faq-bottomtext p{
+    font-size: 15px;
+    color: gray;
+    font-weight: 200;
+    
+}
 
