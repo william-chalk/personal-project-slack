@@ -3,5 +3,5 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 const talkSalesBtn = document.querySelector("#talk-sales");
 
 talkSalesBtn.addEventListener("click",()=>{
-    document.location.href = "./sales.html";
+    document.location.href = "./utils/sales.html";
 });
